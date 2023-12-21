@@ -24,6 +24,7 @@ performance. It is a measure of the model's accuracy, with lower values indicati
 *Test R-squared: 0.9163845109242488*
 
 ### Dynamic Threshold Implementation:
+
 **• Peak vs. Off-Peak Hours:** In this example, we consider the 'Time of Day' to distinguish between peak and off-peak hours. You can modify the peak_threshold based on your specific scenario. For instance, you may observe that power consumption patterns differ during business hours compared to nonbusiness hours.
 
 **• Dynamic Threshold Adjustment:** The adjust_threshold function adjusts the prediction thresholds based on the time of day. During peak hours, a higher threshold (e.g., 10) might be applied, while during off-peak hours, a lower threshold (e.g., 5) is used.
