@@ -12,12 +12,16 @@ A linear regression model was implemented using the scikit-learn library. The mo
 **Model Evaluation:**
 The model's performance was evaluated on the test set using Mean Squared Error (MSE) and R-squared (R²). The actual vs. predicted power consumption was visualized to assess
 model accuracy.
+![image](https://github.com/saikeertanapadmanabham/MachineLearning_GreenCloudComputing/assets/154480871/76723f64-fed5-4390-bfd0-0e5222430ec2)
+
 *Training RMSE: 4.940876335571659*
 
 **Mean Squared Error (MSE):** This metric quantifies the average squared difference between the actual and predicted values. Lower MSE values indicate better model
 performance. It is a measure of the model's accuracy, with lower values indicating a better fit to the data.
 
 **R-squared (R²):** This metric represents the proportion of the variance in the target variable that is explained by the model. R² values range from 0 to 1, where 1 indicates a perfect fit. In the context of regression, a higher R² value suggests that a larger proportion of the variability in the target variable is captured by the model. Keep in mind that while R² provides an indication of how well the model fits the data, it may not capture the entire picture, and it's essential to consider other aspects of model performance and potential limitations. Additionally, exploring more advanced models or fine-tuning hyperparameters might further improve performance.
+
+![image](https://github.com/saikeertanapadmanabham/MachineLearning_GreenCloudComputing/assets/154480871/05f63f2d-ea74-474c-aeff-41dad0762798)
 
 *Test MSE: 25.104161760187225*
 
@@ -48,6 +52,8 @@ Interpreting the results and gaining insights from the time series analysis invo
 Here are some interpretations and insights based on the model's performance:
 
 *Overall Model Performance:*
+
+![image](https://github.com/saikeertanapadmanabham/MachineLearning_GreenCloudComputing/assets/154480871/e06cb3d4-ce74-4648-9891-a5c3e2d18117)
 
 • The model's performance can be assessed by comparing the actual power consumption with the predicted values over time.
 
