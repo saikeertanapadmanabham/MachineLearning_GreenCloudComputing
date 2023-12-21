@@ -5,18 +5,23 @@ The objective of this report is to outline the methodology, code, findings, and 
 **Data Preparation:**
 Synthetic time-series data was generated to simulate power consumption, incorporating factors such as CPU usage, active servers, and time of day. The dataset was split into
 training and testing sets, maintaining temporal sequence.
+
 **Model Development:**
 A linear regression model was implemented using the scikit-learn library. The model was trained on the synthetic data to predict power consumption based on relevant features.
+
 **Model Evaluation:**
 The model's performance was evaluated on the test set using Mean Squared Error (MSE) and R-squared (R²). The actual vs. predicted power consumption was visualized to assess
 model accuracy.
 *Training RMSE: 4.940876335571659*
+
 **Mean Squared Error (MSE):** This metric quantifies the average squared difference between the actual and predicted values. Lower MSE values indicate better model
 performance. It is a measure of the model's accuracy, with lower values indicating a better fit to the data.
-**R-squared (R²):** This metric represents the proportion of the variance in the target variable that is explained by the model. R² values range from 0 to 1, where 1 indicates a perfect fit. In the context of regression, a higher R² value suggests that a larger proportion of the variability in the target variable is captured by the model. Keep in mind that while R² provides an indication of how well the model fits the data, it may not capture the entire picture, and it's essential to consider other aspects of model
-performance and potential limitations. Additionally, exploring more advanced models or fine-tuning hyperparameters might further improve performance.
+
+**R-squared (R²):** This metric represents the proportion of the variance in the target variable that is explained by the model. R² values range from 0 to 1, where 1 indicates a perfect fit. In the context of regression, a higher R² value suggests that a larger proportion of the variability in the target variable is captured by the model. Keep in mind that while R² provides an indication of how well the model fits the data, it may not capture the entire picture, and it's essential to consider other aspects of model performance and potential limitations. Additionally, exploring more advanced models or fine-tuning hyperparameters might further improve performance.
+
 *Test MSE: 25.104161760187225
 Test R-squared: 0.9163845109242488*
+
 Dynamic Threshold Implementation:
 • Peak vs. Off-Peak Hours: In this example, we consider the 'Time of Day' to
 distinguish between peak and off-peak hours. You can modify the
