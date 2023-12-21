@@ -48,54 +48,65 @@ Interpreting the results and gaining insights from the time series analysis invo
 Here are some interpretations and insights based on the model's performance:
 
 *Overall Model Performance:*
+
 • The model's performance can be assessed by comparing the actual power consumption with the predicted values over time.
 
 • A low Mean Squared Error (MSE) and a high R-squared (R²) on the test set suggest that the model captures a significant portion of the variance in power consumption.
 
 *Prediction Accuracy During Peak and Off-Peak Hours:*
+
 • The dynamic threshold adjustment based on peak vs. off-peak hours may improve the accuracy of predictions during different times of the day.
 
 • It's important to assess how well the model adapts to variations in server load and time-dependent patterns, especially during peak hours.
 
 *Highlighting Peak Hours:*
+
 • The visualization highlights peak hours using shading, helping to visualize periods with higher predicted power consumption.
 
 • Understanding and accurately predicting peak demand is crucial for effective resource allocation and energy management in cloud data centers.
 
 *Identification of Anomalies:*
+
 • Look for any anomalies or deviations between actual and predicted values that are not explained by the features in the model.
 
 • Unexplained anomalies might indicate external factors affecting power consumption that are not accounted for in the current model.
 
 *Implications for Managing Cloud Data Centers:*
+
 • Accurate predictions of power consumption enable better resource planning and allocation in cloud data centers.
 
 • Dynamic threshold adjustments allow the model to adapt to changing conditions, enhancing its applicability in real-world scenarios with varying workloads.
 
 *Optimizing Energy Efficiency:*
+
 • The insights gained from the time series analysis can inform decisions on optimizing energy efficiency during specific hours or load conditions.
 
 • Strategies for load balancing, server consolidation, or utilizing renewable energy sources may be adjusted based on the predicted power consumption patterns.
 
 *Continuous Monitoring and Model Improvement:*
+
 • Real-world data centers are dynamic, and continuous monitoring of the model's performance is essential.
 
 • Insights from ongoing analysis can guide improvements to the model, such as incorporating additional features or exploring more sophisticated time series forecasting methods.
 
 *Consideration of External Factors:*
+
 • While the model captures internal factors like CPU usage and server load, external factors (e.g., weather conditions, hardware failures) may impact power consumption.
 
 • Integrating additional data sources and features may enhance the model's ability to account for these external factors.
 
 ### Code:
+
 Presentation of Python code snippets for data generation, model development, evaluation, dynamic threshold implementation, and time series visualization is attached.
 
 ### Assumptions and Simplifications:
+
 • Use of synthetic data for simulation due to the lack of real-world data.
 
 • Simplified model using linear regression; more complex models or time series forecasting models can be explored.
 
 ### Potential Improvements and Next Steps:
+
 • Incorporation of additional features: Consideration of external factors such as weather conditions or hardware failures.
 
 • Fine-tuning of hyperparameters: Optimization of model parameters for better performance.
@@ -109,4 +120,5 @@ Presentation of Python code snippets for data generation, model development, eva
 • Integration with external systems: Implementation within a broader framework for cloud data center management.
 
 ### Conclusion:
+
 In conclusion, the model shows promise in predicting power consumption in cloud data centers. Further enhancements and real-world testing are necessary to ensure its effectiveness in diverse and dynamic scenarios.
