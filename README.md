@@ -32,6 +32,7 @@ performance. It is a measure of the model's accuracy, with lower values indicati
 **• Application to Predictions:** The dynamic threshold is then applied to the test predictions. If a prediction exceeds the adjusted threshold, it's classified as 1 (indicating high power consumption), otherwise, it's classified as 0.
 
 **How Dynamic Thresholds Improve Applicability:**
+
 • Adaptation to Changing Conditions: Dynamic thresholds allow the model to adapt to changing conditions, such as variations in server load or time-dependent patterns. This adaptability is crucial in real-world scenarios where environmental factors affecting power consumption may fluctuate.
 
 • Improved Sensitivity: By adjusting thresholds based on contextual factors, the model becomes more sensitive to changes in conditions. For instance, during peak
@@ -41,6 +42,7 @@ hours, the model can be more conservative in predicting high power consumption, 
 on the characteristics of your data and the specific requirements of your cloud data center. Experimentation and monitoring are key to fine-tuning these thresholds for optimal performance in different scenarios.
 
 **Time Series Analysis:**
+
 Interpreting the results and gaining insights from the time series analysis involves understanding how the model predicts power consumption over time and identifying any patterns or anomalies. 
 
 Here are some interpretations and insights based on the model's performance:
